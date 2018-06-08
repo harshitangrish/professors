@@ -6,7 +6,7 @@ import Main from './Main';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
-    <Main />, 
+    <Main  />, 
     document.getElementById('root')
 );
 registerServiceWorker();
