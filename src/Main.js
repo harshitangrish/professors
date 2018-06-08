@@ -7,7 +7,7 @@ class Main extends Component {
         return (
             <div className="container-fluid">
                 <TopBar />
-                <SideNav />
+                <SideNav  />
             </div>
         );
     }
