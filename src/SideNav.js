@@ -41,7 +41,7 @@ class SideNav extends Component {
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a href="pages/widgets.html" className="nav-link">
+                                <a href="./index.html" className="nav-link">
                                     <i className="nav-icon fa fa-th"/>
                                     <p>
                                         Widgets
@@ -59,19 +59,19 @@ class SideNav extends Component {
                                 </a>
                                 <ul className="nav nav-treeview">
                                     <li className="nav-item">
-                                        <a href="pages/charts/chartjs.html" className="nav-link">
+                                        <a href="#" className="nav-link">
                                             <i className="fa fa-circle-o nav-icon"/>
                                             <p>ChartJS</p>
                                         </a>
                                     </li>
                                     <li className="nav-item">
-                                        <a href="pages/charts/flot.html" className="nav-link">
+                                        <a href="#" className="nav-link">
                                             <i className="fa fa-circle-o nav-icon"/>
                                             <p>Flot</p>
                                         </a>
                                     </li>
                                     <li className="nav-item">
-                                        <a href="pages/charts/inline.html" className="nav-link">
+                                        <a href="#" className="nav-link">
                                             <i className="fa fa-circle-o nav-icon"/>
                                             <p>Inline</p>
                                         </a>
@@ -87,7 +87,7 @@ class SideNav extends Component {
                                 </a>
                             </li>
                             <li className="nav-item ">
-                                <a href="#" className="nav-link">
+                                <a href="./Rating" className="nav-link">
                                     <i className="nav-icon fa fa-star"/>
                                     <p>
                                         Rating Details
@@ -103,7 +103,7 @@ class SideNav extends Component {
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a href="#" className="nav-link">
+                                <a href="./Notifications" className="nav-link">
                                     <i className="nav-icon fa fa-bell"/>
                                     <p>
                                         Notifications
@@ -112,7 +112,7 @@ class SideNav extends Component {
                             </li>
                             <li><hr className="bg-light"/></li>
                             <li className="nav-item">
-                                <a href="pages/calendar.html" className="nav-link">
+                                <a href="#" className="nav-link">
                                     <i className="nav-icon fa fa-calendar"/>
                                     <p>
                                         Calendar
@@ -130,19 +130,19 @@ class SideNav extends Component {
                                 </a>
                                 <ul className="nav nav-treeview">
                                     <li className="nav-item">
-                                        <a href="pages/mailbox/mailbox.html" className="nav-link">
+                                        <a href="#" className="nav-link">
                                             <i className="fa fa-circle-o nav-icon"/>
                                             <p>Inbox</p>
                                         </a>
                                     </li>
                                     <li className="nav-item">
-                                        <a href="pages/mailbox/compose.html" className="nav-link">
+                                        <a href="#" className="nav-link">
                                             <i className="fa fa-circle-o nav-icon"/>
                                             <p>Compose</p>
                                         </a>
                                     </li>
                                     <li className="nav-item">
-                                        <a href="pages/mailbox/read-mail.html" className="nav-link">
+                                        <a href="#" className="nav-link">
                                             <i className="fa fa-circle-o nav-icon"/>
                                             <p>Read</p>
                                         </a>
