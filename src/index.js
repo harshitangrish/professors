@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import Main from './Main';
+import Main from './pages/Main';
 import registerServiceWorker from './registerServiceWorker';
 import { BrowserRouter, Route } from "react-router-dom";
-import TotalUsers from './TotalUsers';
+import TotalUsers from './pages/TotalUsers';
 ReactDOM.render(
     <BrowserRouter>
         <div>

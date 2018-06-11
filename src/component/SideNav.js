@@ -1,4 +1,7 @@
 import React, {Component} from "react";
+import { Link } from "react-router-dom";
+
+
 
 class SideNav extends Component {
     render() {
@@ -33,12 +36,12 @@ class SideNav extends Component {
                             role="menu"
                             data-accordion="false">
                             <li className="nav-item menu-open">
-                                <a href="./index.html" className="nav-link active">
+                                <Link to="/" className="nav-link active">
                                     <i className="nav-icon fa fa-dashboard"/>
                                     <p>
                                         Dashboard
                                     </p>
-                                </a>
+                                </Link>
                             </li>
                             <li className="nav-item">
                                 <a href="pages/widgets.html" className="nav-link">
@@ -79,12 +82,12 @@ class SideNav extends Component {
                                 </ul>
                             </li>
                             <li className="nav-item">
-                                <a href="#" className="nav-link">
+                                <Link to ="/totalusers" className="nav-link">
                                     <i className="nav-icon fa fa-users"/>
                                     <p>
                                         Total Users
                                     </p>
-                                </a>
+                                </Link>
                             </li>
                             <li className="nav-item ">
                                 <a href="#" className="nav-link">

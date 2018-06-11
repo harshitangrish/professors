@@ -1,9 +1,10 @@
 import React, {Component} from "react";
-import SideNav from './SideNav';
-import TopBar from './TopBar';
-import Breadcrumb from './Breadcrumb';
-import Card from "./Card";
-import GradientCard from "./GradientCard";
+import SideNav from '../component/SideNav';
+import TopBar from '../component/TopBar';
+import Breadcrumb from '../component/Breadcrumb';
+import Card from "../component/Card";
+import GradientCard from "../component/GradientCard";
+import DataTable from "../component/DataTable";
 class TotalUsers extends Component {
     render() {
         return (
@@ -111,6 +112,12 @@ class TotalUsers extends Component {
                                         </div>
                                     </div>
 
+                                </div>
+
+                                <div className="row">
+                                    <div className="col-12">
+                                        <DataTable />
+                                    </div>
                                 </div>
 
 

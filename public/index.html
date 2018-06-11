@@ -99,6 +99,24 @@
 <!-- ChartJS 1.0.2 -->
 <script src="plugins/chartjs-old/Chart.min.js"></script>
 <script src="dist/js/pages/dashboard2.js"></script>
+<!-- DataTables -->
+<script src="../../plugins/datatables/jquery.dataTables.js"></script>
+<script src="../../plugins/datatables/dataTables.bootstrap4.js"></script>
+<!-- page script -->
+<script>
+  $(function () {
+    $("#example1").DataTable();
+    $('#example2').DataTable({
+      "paging": true,
+      "lengthChange": false,
+      "searching": false,
+      "ordering": true,
+      "info": true,
+      "autoWidth": false
+    });
+  });
+</script>
+
 
   </body>
 </html>
