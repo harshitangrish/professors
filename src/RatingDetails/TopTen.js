@@ -7,7 +7,7 @@ const TopTen=(props)=>{
     <div className="card-header">
       <h3 className="card-title">Top 10 Rated Professors</h3>
       <div className="card-tools">
-        <span className="badge badge-danger">000 New Members</span>
+        
         <button type="button" className="btn btn-tool" data-widget="collapse"><i className="fa fa-minus" />
         </button>
         <button type="button" className="btn btn-tool" data-widget="remove"><i className="fa fa-times" />

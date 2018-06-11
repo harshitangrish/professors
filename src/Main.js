@@ -1,6 +1,6 @@
 import React, {Component} from "react";
-import TopBar from './TopBar';
-import SideNav from './SideNav' ;
+import TopBar from './components/TopBar';
+import SideNav from './components/SideNav' ;
 
 class Main extends Component {
     render() {

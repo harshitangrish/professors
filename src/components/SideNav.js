@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import {Link} from "react-router-dom";
 
 class SideNav extends Component {
     render() {
@@ -87,12 +88,12 @@ class SideNav extends Component {
                                 </a>
                             </li>
                             <li className="nav-item ">
-                                <a href="./Rating" className="nav-link">
+                                <Link to="/Rating" className="nav-link">
                                     <i className="nav-icon fa fa-star"/>
                                     <p>
                                         Rating Details
                                     </p>
-                                </a>
+                                </Link>
                             </li>
                             <li className="nav-item">
                                 <a href="#" className="nav-link">
@@ -103,12 +104,12 @@ class SideNav extends Component {
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a href="./Notifications" className="nav-link">
+                                <Link to="/Notifications" className="nav-link">
                                     <i className="nav-icon fa fa-bell"/>
                                     <p>
                                         Notifications
                                     </p>
-                                </a>
+                                </Link>
                             </li>
                             <li><hr className="bg-light"/></li>
                             <li className="nav-item">

@@ -1,11 +1,17 @@
 import React, { Component } from "react";
-import Header from './Header';
+import Header from '../components/Header';
 import RatingCard from "./RatingCard";
 import TopTen from './TopTen';
+import SideNav from "../components/SideNav";
+import TopBar from '../components/TopBar';
+import Table from './Table';
 
 class Rating extends Component {
     render() {
         return (
+            <div className="container-fluid">
+            <TopBar/>
+            <SideNav/>
             <div className="content-wrapper">
                 <Header heading="Rating Details" />
                 <section className="content">
@@ -20,8 +26,9 @@ class Rating extends Component {
                     </div>
                 </section>
                 <TopTen/>
+                <Table/>
             </div>
-
+            </div>
         );
     }
 }
